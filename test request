@@ -1,0 +1,36 @@
+Authorization: Basic 
+admin  
+admin
+
+Postman
+
+Отримати всі товари
+Метод: GET
+URL: http://localhost:8000/items
+
+Додати новий товар
+Метод: POST
+URL: http://localhost:8000/items
+JSON
+{
+  "id": 1,
+  "name": "Coffee",
+  "price": 200
+}
+
+Отримати конкретний товар
+Метод: GET
+URL: http://localhost:8000/items/1
+
+Оновити товар
+Метод: PUT
+URL: http://localhost:8000/items/1
+JSON
+{
+  "name": "NewCoffee",
+  "price": 250
+}
+
+Видалити товар
+Метод: DELETE
+URL: http://localhost:8000/items/1
